@@ -1,7 +1,7 @@
 cmake_minimum_required(VERSION 3.17)
-project(TP4___modelisation)
+project(TD_TP_Surface_parametriques)
 
 set(CMAKE_CXX_STANDARD 14)
 
-add_executable(TP4___modelisation main.cpp)
-target_link_libraries(TP4___modelisation -lopenGL32 -lfreeGLUT)
+add_executable(TD_TP_Surface_parametriques main_surfaces_parametriques.cpp)
+target_link_libraries(TD_TP_Surface_parametriques -lopenGL32 -lfreeGLUT)
